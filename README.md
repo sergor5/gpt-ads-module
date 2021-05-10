@@ -1,10 +1,13 @@
 # gpt-ads-module
+
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@ax2/gpt-ads-module/latest.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
 [![npm](https://img.shields.io/npm/dt/@ax2/gpt-ads-module.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
 [![Dependencies](https://david-dm.org/ax2inc/gpt-ads-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/gpt-ads-module)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
 > Google Publisher Tag ads integration for Nuxt
+
+> **Forked from [ax2inc/nuxt-modules](https://github.com/ax2inc/nuxt-modules) and split to the separate repo to use git link as an npm dependency**
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -155,23 +158,34 @@ Override `collapseEmptyDivs` option at the slot's level.
 
 ### Examples
 
-
 ```vue
 <template>
   <GptAd
     ad-unit="SOME-AD-UNIT"
     :size="[120, 60]"
     :size-mapping="[
-      [[1024, 768], [970, 250]],
-      [[980, 690], [728, 90]],
-      [[640, 480], [120, 60]],
-      [[0, 0], [88, 31]],
-    ]" />
+      [
+        [1024, 768],
+        [970, 250],
+      ],
+      [
+        [980, 690],
+        [728, 90],
+      ],
+      [
+        [640, 480],
+        [120, 60],
+      ],
+      [
+        [0, 0],
+        [88, 31],
+      ],
+    ]"
+  />
 </template>
 ```
 
 Equivalent:
-
 
 ```vue
 <template>
@@ -183,10 +197,10 @@ Equivalent:
       ['980x690', '728x90'],
       ['640x480', '120x60'],
       ['0x0', '88x31'],
-    ]" />
+    ]"
+  />
 </template>
 ```
-
 
 ## Development
 
