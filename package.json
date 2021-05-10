@@ -1,0 +1,69 @@
+{
+  "_from": "@ax2/gpt-ads-module",
+  "_id": "@ax2/gpt-ads-module@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-a+CTB1jsSjm0G53AMIqf6A3YJckAZzkIme8LBOMW7VmDoYnty2hj7G2XtdSI2tNu7rXY7W7916pZBv+6j7E9+A==",
+  "_location": "/@ax2/gpt-ads-module",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ax2/gpt-ads-module",
+    "name": "@ax2/gpt-ads-module",
+    "escapedName": "@ax2%2fgpt-ads-module",
+    "scope": "@ax2",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ax2/gpt-ads-module/-/gpt-ads-module-0.6.0.tgz",
+  "_shasum": "cd6e89d2863e6cacca6d9325a7b9f45882c5190b",
+  "_spec": "@ax2/gpt-ads-module",
+  "_where": "C:\\Users\\Sereg\\Desktop\\firmadan-sunucu\\firmadan-frontend\\frontend",
+  "bugs": {
+    "url": "https://github.com/ax2inc/nuxt-modules/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Paul Gascou-Vaillancourt",
+      "email": "paul@ax2.ca"
+    }
+  ],
+  "deprecated": false,
+  "description": "Google Publisher Tag ads integration for Nuxt",
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "5.13.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jest": "22.3.0",
+    "eslint-plugin-vue": "5.2.1",
+    "jest": "24.1.0",
+    "jsdom": "14.0.0",
+    "nuxt": "2.4.3",
+    "request-promise-native": "1.0.5",
+    "standard-version": "latest"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "2215412e6b1519de1305d713d090ff2ef16fb6e9",
+  "homepage": "https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads#readme",
+  "license": "MIT",
+  "main": "lib/module.js",
+  "name": "@ax2/gpt-ads-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ax2inc/nuxt-modules.git"
+  },
+  "version": "0.6.0"
+}
